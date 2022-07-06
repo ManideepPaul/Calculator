@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: linear-gradient(to right, #00aafe, #00fe6c);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    background-color: rgb(0, 0, 0, .7);
+    width: 300px;
+    height: 100px;
+    color: #ffffff;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.ac{
+    grid-column: 1 / span 2;
+}
+
+.equal{
+    grid-column: 3 / span 2;
+}
