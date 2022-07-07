@@ -43,6 +43,11 @@
     background-color: #bff6e9;
 }
 
+.gridItem:hover{
+    background-color: #00aafe;
+    color: #ffffff;
+}
+
 .ac{
     grid-column: 1 / span 2;
 }
